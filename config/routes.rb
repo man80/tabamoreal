@@ -1,12 +1,11 @@
 Rails.application.routes.draw do
   get '/' => 'home#index'
-<<<<<<< HEAD
+
   get 'home/bestbdj'
-=======
+
   
   resources :users
 
->>>>>>> 88fc77d068a01101cd03acb2c782a7e3e9169527
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
